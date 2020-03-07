@@ -1,0 +1,350 @@
+{
+	"id": "dac93342-bcd4-4d30-8148-5273d520b46a",
+	"name": "goRest",
+	"allTests": [],
+	"timestamp": "2020-03-07T19:40:39.484Z",
+	"collection_id": "e13bda20-f481-4eb7-bf6d-3e6cbc11bb39",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "9a6431ec-bae5-4142-9170-bbf638332683",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "e13bda20-f481-4eb7-bf6d-3e6cbc11bb39",
+		"name": "goRest",
+		"order": [],
+		"folders_order": [
+			"2c835fe8-dc0d-4ba6-a44d-c15d70d0aec2"
+		],
+		"isFavorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "Create-User",
+			"id": "04d7ed6a-9c45-4c0b-9608-2da77e6ed09a",
+			"url": "https://gorest.co.in/public-api/users",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verify succes boolean value as true": true,
+				"Verify emailId value": true,
+				"Set an Id to enviornment variable": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify succes boolean value as true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify emailId value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Set an Id to enviornment variable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"190"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verify succes boolean value as true": true,
+					"Verify emailId value": true,
+					"Set an Id to enviornment variable": true
+				}
+			],
+			"time": "190",
+			"totalRequestTime": "190",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get-User-by-id",
+			"id": "599d7a26-8074-46e7-92d0-c38aa582e7a3",
+			"url": "https://gorest.co.in/public-api/users/4139",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verify user id from the response": true,
+				"Verify user first name from the response": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify user id from the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify user first name from the response": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"191"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verify user id from the response": true,
+					"Verify user first name from the response": true
+				}
+			],
+			"time": "191",
+			"totalRequestTime": "191",
+			"iterationResults": {}
+		},
+		{
+			"name": "Update-User",
+			"id": "51cf0a21-09ea-4ad4-aaf7-c9219a01085e",
+			"url": "https://gorest.co.in/public-api/users/4139",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verify user id from the response": true,
+				"Verify phone from the response": true,
+				"Verify website from the response": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify user id from the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify phone from the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify website from the response": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"242"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verify user id from the response": true,
+					"Verify phone from the response": true,
+					"Verify website from the response": true
+				}
+			],
+			"time": "242",
+			"totalRequestTime": "242",
+			"iterationResults": {}
+		},
+		{
+			"name": "Delete-User",
+			"id": "dc05bd91-e3ba-4f36-901a-a64311a20c63",
+			"url": "https://gorest.co.in/public-api/users/4139",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verify success boolean value as true": true,
+				"Verify message as no body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify success boolean value as true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify message as no body": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"281"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verify success boolean value as true": true,
+					"Verify message as no body": true
+				}
+			],
+			"time": "281",
+			"totalRequestTime": "281",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 14,
+	"totalFail": 0,
+	"totalTime": 904,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Create-User",
+			"id": "04d7ed6a-9c45-4c0b-9608-2da77e6ed09a",
+			"url": "https://gorest.co.in/public-api/users",
+			"time": "2020-03-07T19:40:39.484Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify succes boolean value as true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify emailId value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Set an Id to enviornment variable": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get-User-by-id",
+			"id": "599d7a26-8074-46e7-92d0-c38aa582e7a3",
+			"url": "https://gorest.co.in/public-api/users/4139",
+			"time": "2020-03-07T19:40:39.484Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify user id from the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify user first name from the response": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Update-User",
+			"id": "51cf0a21-09ea-4ad4-aaf7-c9219a01085e",
+			"url": "https://gorest.co.in/public-api/users/4139",
+			"time": "2020-03-07T19:40:39.484Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify user id from the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify phone from the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify website from the response": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Delete-User",
+			"id": "dc05bd91-e3ba-4f36-901a-a64311a20c63",
+			"url": "https://gorest.co.in/public-api/users/4139",
+			"time": "2020-03-07T19:40:39.484Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify success boolean value as true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify message as no body": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
