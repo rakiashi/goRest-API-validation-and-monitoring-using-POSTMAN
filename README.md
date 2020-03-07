@@ -1,4 +1,4 @@
-# ogRest API's 
+# goRest API's 
 This project was generated with [https://gorest.co.in/]
 
 This small project helps in understanding basics of api validations and monitoring
